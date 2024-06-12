@@ -23,9 +23,10 @@
 
 @media screen and (min-width:992px){
     section {
+        width: 700px;
         display: flex;
         flex-wrap: wrap;
-        gap: 20px;
+        gap: 120px;
     }
 
     section div#img {
