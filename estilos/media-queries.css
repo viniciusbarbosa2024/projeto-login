@@ -21,3 +21,21 @@
 
 }
 
+@media screen and (min-width:992px){
+    section {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    section div#img {
+        width: auto;
+        flex-basis: 150px;
+        height: 100%;
+    }
+
+    section div#login {
+        padding-top: 50px;
+    }
+}
+
